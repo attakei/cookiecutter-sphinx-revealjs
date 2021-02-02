@@ -1,4 +1,9 @@
 {
-  "presentation_title": "My presentation",
-  "publish_date": "2021-02-02"
+  "title": "My presentation",
+  "project_slug": "{{ cookiecutter.title|slugify }}",
+  "author": "Kazuya Takei",
+  "release": "0.1.0",
+  "publish_date": "2021-02-02",
+  "style_theme": "black",
+  "_extensions": ["jinja2_time.TimeExtension"]
 }
